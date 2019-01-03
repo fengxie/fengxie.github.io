@@ -7,7 +7,6 @@ catalog: yes
 date:   2019-01-03 15:21:03 +0800
 tags:
  - note
-categories: jekyll update
 ---
 
 ## Hey
@@ -16,7 +15,7 @@ categories: jekyll update
 {% highlight python %}
 import numpy as np
 import matplotlib.pyplot as plt
-In [46]:
+
 theta = np.arange(0, 2.0 * np.pi, 0.001)
 r = np.sin(2 * theta) + np.sin(6 * theta) / 4.0
 
