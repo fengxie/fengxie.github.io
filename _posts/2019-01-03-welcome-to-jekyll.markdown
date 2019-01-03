@@ -13,12 +13,15 @@ categories: jekyll update
 ## Hey
 >这是我的第一篇博客。
 
-进入你的博客主页，新的文章将会出现在你的主页上.
+{% highlight python %}
+import numpy as np
+import matplotlib.pyplot as plt
+In [46]:
+theta = np.arange(0, 2.0 * np.pi, 0.001)
+r = np.sin(2 * theta) + np.sin(6 * theta) / 4.0
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+plt.polar(theta, np.abs(r))
+plt.polar(theta, 0.5 * np.abs(r))
+
+plt.show()
 {% endhighlight %}
