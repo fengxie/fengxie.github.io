@@ -10,5 +10,5 @@ tags:                               #标签
 ---
 
 # Some useful links
-https://www.jianshu.com/p/e68fba58f75c#Rename
-https://jekyllrb.com/docs/
+* https://www.jianshu.com/p/e68fba58f75c#Rename
+* https://jekyllrb.com/docs/
